@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CB0492A2E8054CD007C5AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB049292E8054CD007C5AA8 /* Assets.xcassets */; };
+		8CB049312E8054CD007C5AA8 /* PoliceChat2 MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8CB049302E8054CD007C5AA8 /* PoliceChat2 MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8CB049362E8054CD007C5AA8 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB049352E8054CD007C5AA8 /* Messages.framework */; };
+		8CB049392E8054CD007C5AA8 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB049382E8054CD007C5AA8 /* MessagesViewController.swift */; };
+		8CB0493C2E8054CD007C5AA8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0493A2E8054CD007C5AA8 /* MainInterface.storyboard */; };
+		8CB0493E2E8054CD007C5AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0493D2E8054CD007C5AA8 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CB049322E8054CD007C5AA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB049202E8054CC007C5AA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB0492F2E8054CD007C5AA8;
+			remoteInfo = "PoliceChat2 MessagesExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8CB049452E8054CD007C5AA8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8CB049312E8054CD007C5AA8 /* PoliceChat2 MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8CB049262E8054CD007C5AA8 /* PoliceChat2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoliceChat2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB049292E8054CD007C5AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CB0492B2E8054CD007C5AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB049302E8054CD007C5AA8 /* PoliceChat2 MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PoliceChat2 MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB049352E8054CD007C5AA8 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		8CB049382E8054CD007C5AA8 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		8CB0493B2E8054CD007C5AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8CB0493D2E8054CD007C5AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CB0493F2E8054CD007C5AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CB0492D2E8054CD007C5AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB049362E8054CD007C5AA8 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CB0491F2E8054CC007C5AA8 = {
+			isa = PBXGroup;
+			children = (
+				8CB049282E8054CD007C5AA8 /* PoliceChat2 */,
+				8CB049372E8054CD007C5AA8 /* PoliceChat2 MessagesExtension */,
+				8CB049342E8054CD007C5AA8 /* Frameworks */,
+				8CB049272E8054CD007C5AA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB049272E8054CD007C5AA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CB049262E8054CD007C5AA8 /* PoliceChat2.app */,
+				8CB049302E8054CD007C5AA8 /* PoliceChat2 MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CB049282E8054CD007C5AA8 /* PoliceChat2 */ = {
+			isa = PBXGroup;
+			children = (
+				8CB049292E8054CD007C5AA8 /* Assets.xcassets */,
+				8CB0492B2E8054CD007C5AA8 /* Info.plist */,
+			);
+			path = PoliceChat2;
+			sourceTree = "<group>";
+		};
+		8CB049342E8054CD007C5AA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CB049352E8054CD007C5AA8 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CB049372E8054CD007C5AA8 /* PoliceChat2 MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8CB049382E8054CD007C5AA8 /* MessagesViewController.swift */,
+				8CB0493A2E8054CD007C5AA8 /* MainInterface.storyboard */,
+				8CB0493D2E8054CD007C5AA8 /* Assets.xcassets */,
+				8CB0493F2E8054CD007C5AA8 /* Info.plist */,
+			);
+			path = "PoliceChat2 MessagesExtension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CB049252E8054CD007C5AA8 /* PoliceChat2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB049462E8054CD007C5AA8 /* Build configuration list for PBXNativeTarget "PoliceChat2" */;
+			buildPhases = (
+				8CB049242E8054CD007C5AA8 /* Resources */,
+				8CB049452E8054CD007C5AA8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB049332E8054CD007C5AA8 /* PBXTargetDependency */,
+			);
+			name = PoliceChat2;
+			productName = PoliceChat2;
+			productReference = 8CB049262E8054CD007C5AA8 /* PoliceChat2.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		8CB0492F2E8054CD007C5AA8 /* PoliceChat2 MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB049422E8054CD007C5AA8 /* Build configuration list for PBXNativeTarget "PoliceChat2 MessagesExtension" */;
+			buildPhases = (
+				8CB0492C2E8054CD007C5AA8 /* Sources */,
+				8CB0492D2E8054CD007C5AA8 /* Frameworks */,
+				8CB0492E2E8054CD007C5AA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PoliceChat2 MessagesExtension";
+			productName = "PoliceChat2 MessagesExtension";
+			productReference = 8CB049302E8054CD007C5AA8 /* PoliceChat2 MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CB049202E8054CC007C5AA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					8CB049252E8054CD007C5AA8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8CB0492F2E8054CD007C5AA8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8CB049232E8054CC007C5AA8 /* Build configuration list for PBXProject "PoliceChat2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CB0491F2E8054CC007C5AA8;
+			productRefGroup = 8CB049272E8054CD007C5AA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CB049252E8054CD007C5AA8 /* PoliceChat2 */,
+				8CB0492F2E8054CD007C5AA8 /* PoliceChat2 MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB049242E8054CD007C5AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB0492A2E8054CD007C5AA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB0492E2E8054CD007C5AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB0493E2E8054CD007C5AA8 /* Assets.xcassets in Resources */,
+				8CB0493C2E8054CD007C5AA8 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CB0492C2E8054CD007C5AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB049392E8054CD007C5AA8 /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CB049332E8054CD007C5AA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB0492F2E8054CD007C5AA8 /* PoliceChat2 MessagesExtension */;
+			targetProxy = 8CB049322E8054CD007C5AA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CB0493A2E8054CD007C5AA8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB0493B2E8054CD007C5AA8 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CB049402E8054CD007C5AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CB049412E8054CD007C5AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CB049432E8054CD007C5AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AZ5F7EP6V;
+				INFOPLIST_FILE = "PoliceChat2 MessagesExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test2.PoliceChat2.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CB049442E8054CD007C5AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AZ5F7EP6V;
+				INFOPLIST_FILE = "PoliceChat2 MessagesExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test2.PoliceChat2.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CB049472E8054CD007C5AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AZ5F7EP6V;
+				INFOPLIST_FILE = PoliceChat2/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test2.PoliceChat2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CB049482E8054CD007C5AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AZ5F7EP6V;
+				INFOPLIST_FILE = PoliceChat2/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test2.PoliceChat2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CB049232E8054CC007C5AA8 /* Build configuration list for PBXProject "PoliceChat2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB049402E8054CD007C5AA8 /* Debug */,
+				8CB049412E8054CD007C5AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB049422E8054CD007C5AA8 /* Build configuration list for PBXNativeTarget "PoliceChat2 MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB049432E8054CD007C5AA8 /* Debug */,
+				8CB049442E8054CD007C5AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB049462E8054CD007C5AA8 /* Build configuration list for PBXNativeTarget "PoliceChat2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB049472E8054CD007C5AA8 /* Debug */,
+				8CB049482E8054CD007C5AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CB049202E8054CC007C5AA8 /* Project object */;
+}
